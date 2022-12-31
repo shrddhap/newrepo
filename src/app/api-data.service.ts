@@ -10,7 +10,7 @@ export class ApiDataService {
   constructor(private http: HttpClient) { }
 
   data(){
-    return this.http.get('http://jsonplaceholder.typicode.com/posts')
+    return this.http.get('https://jsonplaceholder.typicode.com/posts')
   }
 
 
